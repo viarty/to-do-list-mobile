@@ -39,7 +39,7 @@ export default function Header() {
         </View>
         <Pressable
           onPress={openAddModal}
-          className="flex-row items-center gap-2 px-4 py-2 rounded-full bg-geraldine-lightActive"
+          className="flex justify-center items-center gap-2 w-10 h-10 rounded-full  bg-geraldine-lightActive"
         >
           <Feather name="plus" size={20} color="white" />
         </Pressable>

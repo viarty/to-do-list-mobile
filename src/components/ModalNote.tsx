@@ -195,7 +195,7 @@ export default function ModalNote({
               <Pressable
                 disabled={isButtonDisabled}
                 onPress={handleSave}
-                className={`py-4 rounded-3xl items-center ${
+                className={`py-4 rounded-2xl items-center ${
                   isButtonDisabled ? 'bg-gray-400' : 'bg-red-400'
                 }`}
               >
