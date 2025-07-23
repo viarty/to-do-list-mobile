@@ -68,11 +68,6 @@ Aplicativo de lista de notas/tarefas desenvolvido em React Native com Expo, foca
   <img src="./assets/screenshot/toast-scuess.png" alt="Modal Nova Nota" width="160"/>
 </div>
 
-- **Sincronização:** Atualmente, as notas são salvas apenas localmente. Para portfólio, está ótimo, mas poderia evoluir para sincronizar com backend.
-- **Internacionalização:** O app está em português, mas poderia ser facilmente adaptado para outros idiomas.
-
----
-
 ## 📄 Licença
 
 Este projeto é livre para uso pessoal e portfólio.
