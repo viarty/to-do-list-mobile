@@ -1,50 +1,89 @@
-# Welcome to your Expo app 👋
+# to-do-list-mobile
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+Aplicativo de lista de notas/tarefas desenvolvido em React Native com Expo, focado em simplicidade, performance e experiência de usuário. Permite criar, editar, excluir e priorizar notas, com armazenamento local.
 
-## Get started
+---
 
-1. Install dependencies
+## ✨ Funcionalidades
+
+- Adicionar, editar e excluir notas
+- Priorização de notas (alta/baixa)
+- Feedback visual com Toasts customizados
+- Interface responsiva e moderna
+- Armazenamento local usando AsyncStorage
+- Suporte a fontes customizadas (Poppins)
+- Totalmente em português 🇧🇷
+
+---
+
+## 🚀 Como rodar o projeto
+
+1. **Instale as dependências:**
 
    ```bash
    npm install
    ```
 
-2. Start the app
+2. **Inicie o app:**
 
    ```bash
    npx expo start
    ```
 
-In the output, you'll find options to open the app in a
+3. **Abra no seu dispositivo:**
+   - Use o QR code no Expo Go (Android/iOS)
+   - Ou rode em emulador Android/iOS
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+---
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+## 📁 Estrutura do Projeto
 
-## Get a fresh project
+- `src/app/` - Rotas e telas principais
+- `src/components/` - Componentes reutilizáveis (Header, Modal, Toast)
+- `src/contexts/` - Contexto global de notas
+- `src/services/` - Serviços de persistência de dados
+- `src/styles/` - Temas e cores
+- `src/types/` - Tipos TypeScript
 
-When you're ready, run:
+---
 
-```bash
-npm run reset-project
-```
+## 🛠️ Tecnologias
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+- React Native 0.79
+- Expo 53
+- TypeScript
+- AsyncStorage
+- NativeWind (Tailwind para RN)
+- React Navigation
+- Toast Message
 
-## Learn more
+---
 
-To learn more about developing your project with Expo, look at the following resources:
+## 📸 Screenshots
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+### Tela Inicial
 
-## Join the community
+![Tela Inicial](./assets/screenshot/screen-home.png)
 
-Join our community of developers creating universal apps.
+### Modal de Nova Nota
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+![Modal Nova Nota](./assets/screenshot/screen-new-note.png)
+
+### Modal de Edição de Nota
+
+## ![Modal de Edição de Nota](./assets/screenshot/screen-edit.png)
+
+### Toast de Sucesso
+
+## ![Toast de Sucesso](./assets/screenshot/toast-scuess.png)
+
+## 🐞 Possíveis melhorias/bugs
+
+- **Sincronização:** Atualmente, as notas são salvas apenas localmente. Para portfólio, está ótimo, mas poderia evoluir para sincronizar com backend.
+- **Internacionalização:** O app está em português, mas poderia ser facilmente adaptado para outros idiomas.
+
+---
+
+## 📄 Licença
+
+Este projeto é livre para uso pessoal e portfólio.
