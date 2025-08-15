@@ -62,11 +62,19 @@ Aplicativo de lista de notas/tarefas desenvolvido em React Native com Expo, foca
 ## 📸 Screenshots
 
 <div style="display: flex; gap: 10px;">
-  <img src="./assets/screenshot/screen-home.png" alt="Tela Inicial" width="160"/>
-  <img src="./assets/screenshot/screen-new-note.png" alt="Modal Nova Nota" width="160"/>
-  <img src="./assets/screenshot/screen-edit.png" alt="Modal Nova Nota" width="160"/>
-  <img src="./assets/screenshot/toast-scuess.png" alt="Modal Nova Nota" width="160"/>
+  <img src="assets/screenshots/tela-inicial.png" alt="Tela Inicial" width="220"/>
+  <img src="assets/screenshots/modal-nova-nota.png" alt="Modal Nova Nota" width="220"/>
+  <img src="assets/screenshots/toast-sucesso.png" alt="Toast de Sucesso" width="220"/>
 </div>
+
+---
+
+## 🐞 Possíveis melhorias/bugs
+
+- **Sincronização:** Atualmente, as notas são salvas apenas localmente. Para portfólio, está ótimo, mas poderia evoluir para sincronizar com backend.
+- **Internacionalização:** O app está em português, mas poderia ser facilmente adaptado para outros idiomas.
+
+---
 
 ## 📄 Licença
 
